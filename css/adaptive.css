@@ -1,0 +1,241 @@
+@media screen and (max-width: 1500px) {
+    .header-inner {
+        padding: 0 30px;
+    }
+    .title-block {
+        margin-left: 20px;
+        max-width: 380px;
+    }
+
+   
+    .categoties {
+        display: none;
+    }
+
+    .section-1 {
+        padding-top: 51px;
+    }
+    .no-padding-sect-1 {
+        padding-top: 0;
+    }
+
+
+
+    .fch {
+        margin-top: 0;
+    }
+
+    .our-cafe-bcimg {
+        display: none;
+    }
+
+    /* map */
+
+    .section-contacts {
+        height: 1095px;
+        background-size: auto;
+    }
+
+    .contacts_container {
+        max-height: 100%;
+        flex-direction: column;
+        padding-top: 0px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .header-top {
+        display: none;
+    }
+
+    
+
+}
+
+@media screen and (max-width: 1000px) {
+    .footer-container {
+        display: none;
+    }
+
+    .logo {
+        margin: 0;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .footer-container-adaptive {
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    .header-top-adaptive {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    
+    .input::placeholder {
+       font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .input-block {
+        width: 90%;
+    }
+
+    .header-adaptive-inner {
+        padding: 0 12px;
+    }
+    
+    .contacts_block {
+        height: 572px;
+        width: 342px;
+    }
+
+    .submit-block {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .submit-block a {
+        margin: 20px 0 0 0;
+    }
+
+    .qwe2 {
+        background: #2E2B2C;
+        border: 1px solid #FFFFFF33;
+        width: 211px;
+        height: 59px;
+        border-radius: 10px;
+        text-decoration: none;
+        font-size: 15px;
+        color: #fff;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        text-transform: uppercase;
+        font-family: "Gilroy_b", sans-serif;
+    }
+
+    .tel-number {
+        margin: 20px 0 0 0;
+
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .qwe2 {
+    display: none;
+
+    }
+}
+
+
+@media screen and (max-width: 940px) {
+
+    .header-content {
+        width: auto;
+    }
+
+    .title-block {
+        max-width: 340px;
+    }
+
+    .title-block h2 {
+        font-size: 20px;
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+
+    .text {
+        width: 90%;
+    }
+
+    .text-shadow {
+        width: 90%;
+    }
+
+    .header_wrapper {
+        min-height: 296px;
+    }
+
+    .header-gradient {
+        height: 296px;
+    }
+
+}
+
+
+@media screen and (max-width: 500px) {
+    .card {
+        margin-left: 25px;
+    }
+
+    .no-margin-card {
+        margin: 0 auto 20px auto;
+    }
+
+
+}
+
+@media screen and (max-width: 1250px) {
+    .card_container {
+        max-width: 100%;
+    }
+
+    .card-page-2 {
+        width: 100%;
+    }
+    .come_back-button {
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .card-page-2 {
+        flex-direction: column;
+        height: 700px;
+        align-items: center;
+    }
+    .card-img {
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .card-img {
+        border-radius: 0;
+        width: 100%;
+    }
+
+    .card-container {
+        padding: 28px 50px 30px 50px;
+        height: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .food_content_1 ul li p {
+        font-size: 12px;
+    }
+
+    .card_button {
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width: 1480px) {
+    .buy-wiyh-this-product {
+        padding: 0 10px;
+    }
+}

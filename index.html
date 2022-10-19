@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ресторан</title>
+
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/adaptive.css">
+
+    <link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+			integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+	<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+			integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" defer></script>
+    <script src="js/script.js" defer></script>
+    
+</head>
+<body>
+
+    <header>
+
+        <div class="header-top"">
+            <div class="header-inner">
+                
+                <div class="search-contacts">
+                    <div class="logo">
+                        <h1>logos</h1>
+                    </div>
+
+                    <form class="input-block">
+                        <img src="img/svg-icons/Location.svg" alt="img">
+                        <input class="input" type="text" placeholder="Введите адрес доставки">
+                        <img class="search-icon" src="img/svg-icons/Search.svg" alt="img">
+                    </form>
+
+                    <div class="contact-block">
+                        <img src="img/svg-icons/Calling.svg" alt="img">
+                        <div class="contact">
+                            <span>Контакты:</span>
+                            <a href="#">+7 (917) 510-57-59</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="basket">
+                      <span>корзина</span>
+                      <div class="amount">
+                            <span>4</span>
+                      </div>
+                </div>    
+            </div>
+        </div>
+        <div class="header-top-adaptive">
+            <div class="header-adaptive-inner">
+                <img class="burger-menu" src="img/svg-icons/burger.svg" alt="img">
+                <div class="logo" style="margin: 0;">
+                    <h1>logos</h1>
+                </div>
+                <a href="#" class="basket-adaptive">
+                    <img src="img/svg-icons/Buy.svg" alt="img">
+                    <span>корзина</span>
+                </a>
+            </div>
+            <form class="input-block" style="margin: 0;">
+                <img src="img/svg-icons/Location.svg" alt="img">
+                <input class="input" type="text" placeholder="Введите адрес доставки">
+                <img class="search-icon" src="img/svg-icons/Search.svg" alt="img">
+            </form>
+        </div>
+
+
+        <div class="header_wrapper" style="background-image: url(img/header-img.png);">
+            <div class="header-gradient">
+                <div class="header-content">
+                    <div class="text-content">
+                        <img class="text-shadow" src="img/svg-icons/text-shadow.svg" alt="">
+                    <img class="text" src="img/svg-icons/text.svg" alt="">
+                    </div>
+        
+                    <div class="header-button">
+                        <span class="button-text">Ещё не пробовал?</span>
+                        <img class="button-el1" src="img/svg-icons/Rectangle 20.svg" alt="">
+                        <img class="button-el2" src="img/svg-icons/Rectangle 19.svg" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+        <section class="section-1">
+
+            <div class="categoties">
+                <div class="links">
+                    <ul>
+                        <a href="#">Холодные закуски</a>
+                        <a href="#">Горячие закуски</a>
+                        <a href="#">Мясные блюда</a>
+                        <a href="#">Супы</a>
+                        <a href="#">Рыбные блюда</a>
+                        <a href="#">Гриль меню</a>
+                        <a href="#">Фирменные блюда</a>
+                        <a href="#">Напитки</a>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="title-block fch">
+                <h2 class="title">Холодные закуски</h2>
+            </div>
+
+            <div class="owl-carousel" >
+
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/slider_images/menu 1-1.jpg" alt="img">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-title">
+                            <h2>Рыба</h2>
+                            <span>Вес: 225 г</span>
+                        </div>
+                        <div class="card-description">
+                            Фаршированный гречневой кашей, 
+                                курагой, апельсином и зеленым яблоком
+                        </div>
+                        <div class="card-buttons">
+                            <span>450 ₽</span>
+                            <a href="pages/card_product.html" class="basket-btn">
+                                <span>В корзину</span>
+                                <img src="img/svg-icons/Buy.svg" alt="img" style="width: 24px; height: 24px;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/slider_images/menu 1-2.jpg" alt="img">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-title">
+                            <h2>Утка</h2>
+                            <span>Вес: 225 г</span>
+                        </div>
+                        <div class="card-description">
+                            Фаршированный гречневой кашей, 
+                                курагой, апельсином и зеленым яблоком
+                        </div>
+                        <div class="card-buttons">
+                            <span>450 ₽</span>
+                            <a href="pages/card_product.html" class="basket-btn">
+                                <span>В корзину</span>
+                                <img src="img/svg-icons/Buy.svg" alt="img" style="width: 24px; height: 24px;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/slider_images/menu 1-3.jpg" alt="img">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-title">
+                            <h2>Индейка</h2>
+                            <span>Вес: 225 г</span>
+                        </div>
+                        <div class="card-description">
+                            Фаршированный гречневой кашей, 
+                                курагой, апельсином и зеленым яблоком
+                        </div>
+                        <div class="card-buttons">
+                            <span>950 ₽</span>
+                            <a href="pages/card_product.html" class="basket-btn">
+                                <span>В корзину</span>
+                                <img src="img/svg-icons/Buy.svg" alt="img" style="width: 24px; height: 24px;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/slider_images/menu 1.jpg" alt="img">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-title">
+                            <h2>Индейка</h2>
+                            <span>Вес: 225 г</span>
+                        </div>
+                        <div class="card-description">
+                            Фаршированный гречневой кашей, 
+                                курагой, апельсином и зеленым яблоком
+                        </div>
+                        <div class="card-buttons">
+                            <span>7140 ₽</span>
+                            <a href="pages/card_product.html" class="basket-btn">
+                                <span>В корзину</span>
+                                <img src="img/svg-icons/Buy.svg" alt="img" style="width: 24px; height: 24px;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/slider_images/menu 1-1.jpg" alt="img">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-title">
+                            <h2>Индейка</h2>
+                            <span>Вес: 225 г</span>
+                        </div>
+                        <div class="card-description">
+                            Фаршированный гречневой кашей, 
+                                курагой, апельсином и зеленым яблоком
+                        </div>
+                        <div class="card-buttons">
+                            <span>450 ₽</span>
+                            <a href="pages/card_product.html" class="basket-btn">
+                                <span>В корзину</span>
+                                <img src="img/svg-icons/Buy.svg" alt="img" style="width: 24px; height: 24px;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="section-snacks">
+
+            <div class="title-block">
+                <h2 class="title">ГОРЯЧИЕ ЗАКУСКИ</h2>
+            </div>
+
+            <div class="owl-carousel" >
+
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/slider_images/menu 1-1.jpg" alt="img">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-title">
+                            <h2>Рыба</h2>
+                            <span>Вес: 225 г</span>
+                        </div>
+                        <div class="card-description">
+                            Фаршированный гречневой кашей, 
+                                курагой, апельсином и зеленым яблоком
+                        </div>
+                        <!-- <div class="card-buttons">
+                            <div class="minus buttons">-</div>
+                            <span>450 ₽</span>
+                            <div class="plus buttons">+</div>
+                        </div> -->
+
+                        <div class="card-buttons">
+                            <span>450 ₽</span>
+                            <a href="pages/card_product.html" class="basket-btn">
+                                <span>В корзину</span>
+                                <img src="img/svg-icons/Buy.svg" alt="img" style="width: 24px; height: 24px;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/slider_images/menu 1-2.jpg" alt="img">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-title">
+                            <h2>Утка</h2>
+                            <span>Вес: 225 г</span>
+                        </div>
+                        <div class="card-description">
+                            Фаршированный гречневой кашей, 
+                                курагой, апельсином и зеленым яблоком
+                        </div>
+                        <!-- <div class="card-buttons">
+                            <div class="minus buttons">-</div>
+                            <span>450 ₽</span>
+                            <div class="plus buttons">+</div>
+                        </div> -->
+
+                        <div class="card-buttons">
+                            <span>450 ₽</span>
+                            <a href="pages/card_product.html" class="basket-btn">
+                                <span>В корзину</span>
+                                <img src="img/svg-icons/Buy.svg" alt="img" style="width: 24px; height: 24px;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/slider_images/menu 1-3.jpg" alt="img">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-title">
+                            <h2>Индейка</h2>
+                            <span>Вес: 225 г</span>
+                        </div>
+                        <div class="card-description">
+                            Фаршированный гречневой кашей, 
+                                курагой, апельсином и зеленым яблоком
+                        </div>
+                        <!-- <div class="card-buttons">
+                            <div class="minus buttons">-</div>
+                            <span>450 ₽</span>
+                            <div class="plus buttons">+</div>
+                        </div> -->
+
+                        <div class="card-buttons">
+                            <span>950 ₽</span>
+                            <a href="pages/card_product.html" class="basket-btn">
+                                <span>В корзину</span>
+                                <img src="img/svg-icons/Buy.svg" alt="img" style="width: 24px; height: 24px;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/slider_images/menu 1.jpg" alt="img">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-title">
+                            <h2>Индейка</h2>
+                            <span>Вес: 225 г</span>
+                        </div>
+                        <div class="card-description">
+                            Фаршированный гречневой кашей, 
+                                курагой, апельсином и зеленым яблоком
+                        </div>
+                        <div class="card-buttons">
+                            <span>7140 ₽</span>
+                            <a href="pages/card_product.html" class="basket-btn">
+                                <span>В корзину</span>
+                                <img src="img/svg-icons/Buy.svg" alt="img" style="width: 24px; height: 24px;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/slider_images/menu 1-1.jpg" alt="img">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-title">
+                            <h2>Индейка</h2>
+                            <span>Вес: 225 г</span>
+                        </div>
+                        <div class="card-description">
+                            Фаршированный гречневой кашей, 
+                                курагой, апельсином и зеленым яблоком
+                        </div>
+                        <div class="card-buttons">
+                            <span>450 ₽</span>
+                            <a href="pages/card_product.html" class="basket-btn">
+                                <span>В корзину</span>
+                                <img src="img/svg-icons/Buy.svg" alt="img" style="width: 24px; height: 24px;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="section-snacks last-snack-section">
+
+            <div class="title-block">
+                <h2 class="title">Мясные блюда</h2>
+            </div>
+
+            <div class="owl-carousel" >
+
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/slider_images/menu 1-1.jpg" alt="img">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-title">
+                            <h2>Рыба</h2>
+                            <span>Вес: 225 г</span>
+                        </div>
+                        <div class="card-description">
+                            Фаршированный гречневой кашей, 
+                                курагой, апельсином и зеленым яблоком
+                        </div>
+                        <!-- <div class="card-buttons">
+                            <div class="minus buttons">-</div>
+                            <span>450 ₽</span>
+                            <div class="plus buttons">+</div>
+                        </div> -->
+
+                        <div class="card-buttons">
+                            <span>450 ₽</span>
+                            <a href="pages/card_product.html" class="basket-btn">
+                                <span>В корзину</span>
+                                <img src="img/svg-icons/Buy.svg" alt="img" style="width: 24px; height: 24px;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/slider_images/menu 1-2.jpg" alt="img">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-title">
+                            <h2>Утка</h2>
+                            <span>Вес: 225 г</span>
+                        </div>
+                        <div class="card-description">
+                            Фаршированный гречневой кашей, 
+                                курагой, апельсином и зеленым яблоком
+                        </div>
+                        <div class="card-buttons">
+                            <span>450 ₽</span>
+                            <a href="pages/card_product.html" class="basket-btn">
+                                <span>В корзину</span>
+                                <img src="img/svg-icons/Buy.svg" alt="img" style="width: 24px; height: 24px;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/slider_images/menu 1-3.jpg" alt="img">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-title">
+                            <h2>Индейка</h2>
+                            <span>Вес: 225 г</span>
+                        </div>
+                        <div class="card-description">
+                            Фаршированный гречневой кашей, 
+                                курагой, апельсином и зеленым яблоком
+                        </div>
+                        <div class="card-buttons">
+                            <span>950 ₽</span>
+                            <a href="pages/card_product.html" class="basket-btn">
+                                <span>В корзину</span>
+                                <img src="img/svg-icons/Buy.svg" alt="img" style="width: 24px; height: 24px;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/slider_images/menu 1.jpg" alt="img">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-title">
+                            <h2>Индейка</h2>
+                            <span>Вес: 225 г</span>
+                        </div>
+                        <div class="card-description">
+                            Фаршированный гречневой кашей, 
+                                курагой, апельсином и зеленым яблоком
+                        </div>
+                        <div class="card-buttons">
+                            <span>7140 ₽</span>
+                            <a href="pages/card_product.html" class="basket-btn">
+                                <span>В корзину</span>
+                                <img src="img/svg-icons/Buy.svg" alt="img" style="width: 24px; height: 24px;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/slider_images/menu 1-1.jpg" alt="img">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-title">
+                            <h2>Индейка</h2>
+                            <span>Вес: 225 г</span>
+                        </div>
+                        <div class="card-description">
+                            Фаршированный гречневой кашей, 
+                                курагой, апельсином и зеленым яблоком
+                        </div>
+                        <div class="card-buttons">
+                            <span>450 ₽</span>
+                            <a href="pages/card_product.html" class="basket-btn">
+                                <span>В корзину</span>
+                                <img src="img/svg-icons/Buy.svg" alt="img" style="width: 24px; height: 24px;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="our-cafe-bcimg">
+
+                <div class="our-cafe-block">
+                    <div class="text-our-cafe">
+                        <h2>Наше кафе</h2>
+    
+                        <p>Мы расположены в одном из самых живописных мест города — на берегу реки, это ваш оазис в черте города, куда можно сбежать от шумного и пыльного мегаполиса. Мы, действительно уникальные, ведь все продумано до мелочей: проект построен из дикого закарпатского сруба, камин в основном зале ресторана и панорамные окна с видом на реку, уютные беседки на берегу реки и лучшая видовая террасса, шатер с посадкой на 200 человек, сказочный детский домик и бассейн.</p>
+    
+                        <div class="button-our-cafe"><a href="#">Посмотреть меню</a></div>
+                    </div>
+    
+                    <div class="content-our-cafe">
+
+                        <a class="block-our-cafe" href="#">
+                                <img src="img/svg-icons/onion 1.svg" alt="img">
+                                <span>Свежайшие продукты</span>
+                        </a>
+    
+                        <a class="block-our-cafe" href="#">
+                                <img src="img/svg-icons/Vector.svg" alt="img">
+                                <span>Быстрая доставка</span>
+                        </a>
+    
+                        <a class="block-our-cafe" href="#">
+                                <img src="img/svg-icons/chef 1.svg" alt="img">
+                                <span>Лучшие повора</span>
+                        </a>
+    
+                        <a class="block-our-cafe" href="#">
+                                <img src="img/svg-icons/onion 1.svg" alt="img">
+                                <span>Свежайшие продукты</span>
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="section-contacts">
+                <div class="contacts_container">
+                    <div class="contacts_block">
+                        <h2 class="contact_title">Контакты</h2>
+                        <div class="address">
+                            <img src="img/svg-icons/Location-green.svg" alt="img">
+                            <div class="address_text">
+                                <p class="p">Наш адрес:</p>
+                                <h3 class="h3">МО, городской округ Красногорск, село Ильинкое, Экспериментальная улица, 10</h3>
+                            </div>
+                        </div>
+    
+                        <div class="address under-line">
+                            <img src="img/svg-icons/Message.svg" alt="img">
+                            <div class="address_text">
+                                <p class="p">Наша почта:</p>
+                                <h3 class="h3">auto.wash@gmail.com</h3>
+                            </div>
+                        </div>
+                        
+                        <div class="submit_networks">
+                            <div class="submit-block">
+                                <a class="qwe" href="#">Забранировать стол</a>
+                                <a class="qwe2" href="#">ПРОЛОЖИТЬ МАРШРУТ</a>
+                                <div class="tel-number">
+                                    <h2>+7 (917) 510-57-59</h2>
+                                    <p>Звоните или оставляйте заявку</p>
+                                </div>
+                            </div>
+    
+                            <div class="social_network">
+                                <p>Мы в соц сетях:</p>
+                                <a href="#"><img src="img/svg-icons/facebook.svg" alt="img"></a>
+                                <a href="#"><img src="img/svg-icons/vkontacte.svg" alt="img"></a>
+                                <a href="#"><img src="img/svg-icons/youtube.svg" alt="img"></a>
+                                <a href="#"><img src="img/svg-icons/instagram.svg" alt="img"></a>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                    <img src="img/svg-icons/we-here.svg" alt="img">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <a href="#" class="arrow">
+                <img src="img/svg-icons/Arrow 4.svg" alt="img">
+            </a>
+
+            <div class="footer_content">
+                <div class="logo">
+                    <h1>logos</h1>
+                </div>
+
+                <p>© ООО СК «АПШЕРОН» <br>
+                    Все права защищены. 2010-2020</p>
+
+                <a href="#">Пользовательское соглашение</a>
+                <a href="#">Карта сайта</a>
+                <a href="#">Политика конфиденциальности</a>
+            </div>
+
+            <div class="foot_links">
+                <ul>
+                    <a href="#">О ресторане</a>
+                    <a href="#">Условия доставки</a>
+                    <a href="#">Возврат товара</a>
+                    <a href="#">Акции</a>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-container-adaptive">
+            <a href="#" class="arrow">
+                <img src="img/svg-icons/Arrow 4.svg" alt="img">
+            </a>
+
+            <div class="footer_content">
+                <div class="logo">
+                    <h1>logos</h1>
+                </div>
+
+                <p>© ООО СК «АПШЕРОН» <br>
+                    Все права защищены. 2010-2020</p>
+
+                <a href="#">Пользовательское соглашение</a>
+                <a href="#">Карта сайта</a>
+                <a href="#">Политика конфиденциальности</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

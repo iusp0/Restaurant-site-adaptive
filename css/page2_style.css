@@ -1,0 +1,134 @@
+
+.card_container {
+    max-width: 1210px;
+    width: 100%;
+    padding: 45px 0;
+    margin: 0 auto;
+}
+
+.come_back-button {
+    display: flex;
+    align-items: center;
+}
+
+.arrow-back {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.come_back-button p {
+    font-family: "Gilroy", sans-serif;
+    font-size: 16px;
+    color: #fff;
+    margin-left: 10px;
+}
+
+
+.card-page-2 {
+    height: 399px;
+    width: 1210px;
+    border-radius: 10px;
+    margin-top: 28px;
+    display: flex;
+    background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
+
+}
+
+.card-img {
+    width: 599px;
+    border-radius: 10px 0 0 10px;
+}
+
+
+.card-container {
+    padding: 28px 0 30px 50px;
+    font-family: "Gilroy", sans-serif;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.card-container h2 {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.card-container p {
+    font-family: "Gilroy_l", sans-serif;
+    color: #CFCFCF;
+}
+
+
+.card_button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 220px;
+    width: 100%;
+    margin: 22px 0;
+}
+
+.basket_block {
+    position: relative;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 145px;
+    height: 50px;
+    border-radius: 10px;
+    background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+}
+
+.basket_block::after {
+    content: '';
+    left: 95px;
+    width: 1px;
+    height: 38px;
+    background: #fff;
+    position: absolute;
+    opacity: .4;
+}
+
+
+.basket_block span {
+    color: #fff;
+}
+
+.card-price {
+    font-size: 25px;
+}
+
+.food_content_1 {
+    max-width: 400px;
+}
+
+.food_content_1  ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.food_content_1  ul li {
+    list-style-type: none;
+}
+
+
+.food_content_1  ul li p {
+    margin-top: 5px;
+}
+
+.buy-wiyh-this-product {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
